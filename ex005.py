@@ -1,0 +1,5 @@
+var1 = input('Digite algo:')
+print(type(var1))
+print('É um número? {}'.format(var1.isnumeric()))
+print('É uma letra? {}'.format(var1.isalpha()))
+print('É um Alfanumérico? {}'.format(var1.isalnum()))
