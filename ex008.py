@@ -66,11 +66,11 @@ print('Na sua carteira, tem {} em dólar!'.format(dolar))
 
 print('===================================')
 print('Calculadora de area e tinta')
-altura = int(input('Qual a altura da parede em metros? '))
-largura = int(input('Qual a largura da parede em metros? '))
+altura = float(input('Qual a altura da parede em metros? '))
+largura = float(input('Qual a largura da parede em metros? '))
 area = largura * altura
 tintalitro = area / 2
-print('A quantidade de tinta para pintar uma área de {} m² é de {} litros de tinta.'.format(area, tintalitro))
+print('A quantidade de tinta para pintar uma área de {:.2f} m² é de {:.2f} litros de tinta.'.format(area, tintalitro))
 
 
 print('===================================')
