@@ -57,10 +57,9 @@ print('{} x 9 = {}'.format(n2, tab9))
 print('{} x 10 = {}'.format(n2, tab10))
 
 
-
 print('===================================')
 print('Calculadora de dolar')
-carteira = int(input('Quanto vc tem na carteira em real? '))
+carteira = float(input('Quanto vc tem na carteira em real? '))
 dolar = carteira / 5
 print('Na sua carteira, tem {} em dólar!'.format(dolar))
 
@@ -73,6 +72,7 @@ area = largura * altura
 tintalitro = area / 2
 print('A quantidade de tinta para pintar uma área de {} m² é de {} litros de tinta.'.format(area, tintalitro))
 
+
 print('===================================')
 print('Calculadora de desconto')
 valor1 = int(input('Qual o valor do produto? '))
@@ -80,6 +80,7 @@ desconto = int(input('Qual o valor de desconto em %? '))
 calcdesconto = (desconto/100) * valor1
 valorcomdesconto = valor1 - calcdesconto
 print('O valor com desconto é de {}.'.format(valorcomdesconto))
+
 
 print('===================================')
 print('Calculadora de Salário')
