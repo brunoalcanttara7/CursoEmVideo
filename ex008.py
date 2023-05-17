@@ -75,8 +75,8 @@ print('A quantidade de tinta para pintar uma área de {:.2f} m² é de {:.2f} li
 
 print('===================================')
 print('Calculadora de desconto')
-valor1 = int(input('Qual o valor do produto? '))
-desconto = int(input('Qual o valor de desconto em %? '))
+valor1 = float(input('Qual o valor do produto? '))
+desconto = float(input('Qual o valor de desconto em %? '))
 calcdesconto = (desconto/100) * valor1
 valorcomdesconto = valor1 - calcdesconto
 print('O valor com desconto é de {}.'.format(valorcomdesconto))
@@ -84,7 +84,7 @@ print('O valor com desconto é de {}.'.format(valorcomdesconto))
 
 print('===================================')
 print('Calculadora de Salário')
-salario = int(input('Qual o valor do salário recebido? '))
+salario = float(input('Qual o valor do salário recebido? '))
 calc = (15/100) * salario
 salarioajustado = salario + calc
 print('O valor do salário com acréscimo é de {}.'.format(salarioajustado))
