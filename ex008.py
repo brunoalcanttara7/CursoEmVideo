@@ -85,6 +85,6 @@ print('O valor com desconto é de {}.'.format(valorcomdesconto))
 print('===================================')
 print('Calculadora de Salário')
 salario = float(input('Qual o valor do salário recebido? '))
-calc = (15/100) * salario
-salarioajustado = salario + calc
+#calc = salario * (15/100)
+salarioajustado = salario + (salario * (15/100))
 print('O valor do salário com acréscimo é de {}.'.format(salarioajustado))
